@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能家居系统</string>
+
+    <!-- Network Status Card -->
+    <string name="channel_description">访客和传感器通知</string>
+    <string name="content_desc_network_icon">网络状态图标</string>
+    <string name="wifi_status_placeholder">WiFi: 检查中...</string>
+    <string name="emqx_status_placeholder">EMQX: 检查中...</string>
+    <string name="wifi_ip_prefix">WiFi IP:</string>
+    <string name="wifi_disconnected">WiFi: 未连接</string>
+    <string name="emqx_prefix">EMQX:</string>
+    <string name="emqx_connected_prefix">EMQX: </string>
+    <string name="emqx_disconnected">EMQX: 未连接</string>
+
+    <!-- Main Title -->
+    <string name="main_title">智能家居系统 APP</string>
+
+    <!-- Sensor Cards -->
+    <string name="content_desc_temp_icon">温度图标</string>
+    <string name="temperature_placeholder">温度: -</string>
+    <string name="content_desc_humid_icon">湿度图标</string>
+    <string name="humidity_placeholder">湿度: -</string>
+    <string name="content_desc_light_icon">光照图标</string>
+    <string name="light_placeholder">光照: -</string>
+    <string name="content_desc_pressure_icon">气压图标</string>
+    <string name="pressure_placeholder">气压: -</string>
+    <string name="content_desc_co_icon">一氧化碳图标</string>
+    <string name="co_ppm_placeholder">CO (PPM): -</string>
+    <string name="content_desc_methane_icon">甲烷图标</string>
+    <string name="methane_ppm_placeholder">甲烷 (PPM): -</string>
+    <string name="content_desc_smoke_icon">烟雾图标</string>
+    <string name="smoke_ppm_placeholder">烟雾 (PPM): -</string>
+    <string name="content_desc_rain_icon">雨水等级图标</string>
+    <string name="rain_level_placeholder">雨水等级: -</string>
+    <string name="content_desc_tvoc_icon">TVOC 图标</string>
+    <string name="tvoc_placeholder">TVOC (ppb): -</string>
+    <string name="content_desc_eco2_icon">eCO2 图标</string>
+    <string name="eco2_placeholder">eCO2 (ppm): -</string>
+    <string name="content_desc_pir_icon">人体红外图标</string>
+    <string name="pir_status_placeholder">红外传感器: -</string>
+    <string name="pir_status_detected">红外传感器: 检测到</string>
+    <string name="pir_status_not_detected">人体状态: 未检测到</string>
+
+    <!-- Controls -->
+    <string name="servo_motor_label">窗户 (舵机)</string>
+    <string name="stepper_motor_label">窗帘 (步进电机)</string>
+
+    <!-- Bottom Navigation Titles -->
+    <string name="title_home">首页</string>
+    <string name="title_history">历史</string>
+    <string name="title_menu">菜单</string>
+    <string name="title_settings">设置</string>
+    <string name="title_chat">聊天</string>
+    <string name="title_music">音乐</string>
+
+    <!-- MainActivity Messages -->
+    <string name="wifi_permission_denied">Wi-Fi 状态权限被拒绝</string>
+    <string name="mqtt_connecting">MQTT 连接中...</string>
+    <string name="mqtt_connected">MQTT 已连接</string>
+    <string name="mqtt_reconnected">(重连)</string>
+    <string name="mqtt_connection_lost">MQTT 连接丢失</string>
+    <string name="mqtt_connection_failed">MQTT 连接失败: %s</string>
+    <string name="subscribed_to_topic">已订阅主题: %s</string>
+    <string name="failed_to_subscribe">订阅主题失败: %s</string>
+    <string name="mqtt_message_sent">MQTT 消息已发送: %s</string>
+    <string name="error_sending_mqtt">发送 MQTT 消息错误: %s</string>
+    <string name="mqtt_client_not_connected">MQTT 客户端未连接.</string>
+    <string name="error_parsing_json">解析 JSON 错误</string>
+    <string name="error_parsing_sensor_data">解析传感器数据错误.</string>
+
+    <!-- strings-zh-rCN.xml -->
+    <string name="error_failed_to_subscribe">订阅主题失败: %s</string>
+    <string name="error_failed_to_send_mqtt">发送 MQTT 消息错误: %s</string>
+    <string name="error_client_not_connected">MQTT 客户端未连接。</string>
+    <string name="error_parsing_sensor_data_toast">解析传感器数据错误。</string>
+
+    <!-- Format Strings for Sensor Data -->
+    <string name="format_temperature">温度: %.1f °C</string>
+    <string name="format_humidity">湿度: %.1f %%</string>
+    <string name="format_light">光照: %.1f lx</string>
+    <string name="format_pressure">气压: %.1f hPa</string>
+    <string name="format_co_ppm">CO (PPM): %.1f</string>
+    <string name="format_methane_ppm">甲烷: %.1f PPM</string>
+    <string name="format_smoke_ppm">烟雾 (PPM): %.1f</string>
+    <string name="format_rain_level">雨水等级: %.1f %%</string>
+    <string name="format_tvoc">TVOC (ppb): %d</string>
+    <string name="format_eco2">eCO2 (ppm): %d</string>
+    <string name="format_pir_status">红外检测: %s</string>
+    <string name="pir_detected">检测到</string>
+    <string name="pir_not_detected">未检测到</string>
+
+    <!-- Placeholder Text for Sensors -->
+    <string name="placeholder_smoke_ppm">烟雾 (PPM): -</string>
+    <string name="placeholder_rain_level">雨水等级: -</string>
+    <string name="placeholder_tvoc">TVOC (ppb): -</string>
+    <string name="placeholder_eco2">eCO2 (ppm): -</string>
+    <string name="placeholder_pir_status">红外检测: -</string>
+    <string name="placeholder_methane_ppm">甲烷 (PPM): -</string>
+
+    <!-- strings-zh-rCN.xml -->
+    <string name="log_mqtt_connected">MQTT 已连接</string>
+    <string name="log_mqtt_reconnected">重连</string>
+    <string name="log_mqtt_connection_lost">MQTT 连接丢失</string>
+    <string name="log_mqtt_error_connecting">连接 MQTT Broker 错误</string>
+    <string name="toast_mqtt_connection_failed">MQTT 连接失败: %s</string>
+    <string name="log_message_arrived">收到消息: %s</string>
+    <!-- strings-zh-rCN.xml -->
+    <string name="historical_extremes_title">历史极值</string>
+    <string name="history_temp_label">温度 (°C)</string>
+    <string name="history_humid_label">湿度 (%)</string>
+    <string name="history_light_label">光照 (lx)</string>
+    <string name="history_pressure_label">气压 (hPa)</string>
+    <string name="history_co_label">一氧化碳 (ppm)</string>
+    <string name="history_methane_label">甲烷 (ppm)</string>
+    <string name="history_smoke_label">烟雾 (ppm)</string>
+    <string name="history_rain_label">雨水等级 (%)</string>
+    <string name="history_tvoc_label">TVOC (ppb)</string>
+    <string name="history_eco2_label">eCO2 (ppm)</string>
+    <string name="raw_data_title">原始数据</string>
+    <string name="history_max_placeholder">最大值: -</string>
+    <string name="history_min_placeholder">最小值: -</string>
+    <string name="mq7_raw_placeholder">MQ7 原始值: -</string>
+    <string name="mq4_raw_placeholder">MQ4 原始值: -</string>
+    <string name="mq2_raw_placeholder">MQ2 原始值: -</string>
+    <string name="rain_raw_placeholder">雨水原始值: -</string>
+    <string name="channel_name">智能家居警报</string>
+
+    <!-- strings.xml (中文) -->
+    <string name="history_page_title">历史数据记录</string>
+    <string name="temperature_label_celsius">温度 (°C)</string>
+    <string name="humidity_label_percent">湿度 (%)</string>
+    <string name="light_label_lux">光照 (lx)</string>
+    <string name="pressure_label_hpa">气压 (hPa)</string>
+    <string name="co_label_ppm">CO (ppm)</string>
+    <string name="methane_label_ppm">甲烷 (ppm)</string>
+    <string name="smoke_label_ppm">烟雾 (ppm)</string>
+    <string name="rain_level_label_percent">雨水等级 (%)</string>
+    <string name="tvoc_label_ppb">TVOC (ppb)</string>
+    <string name="eco2_label_ppm">eCO2 (ppm)</string>
+    <string name="max_prefix">最高: </string>
+    <string name="min_prefix">最低: </string>
+    <string name="recent_event_notifications_title">最近事件通知</string>
+
+    <string name="event_desc_visitor_bell">访客按铃</string>
+    <string name="alarm_type_co">一氧化碳</string>
+    <string name="alarm_type_smoke">烟雾</string>
+    <string name="alarm_type_methane">甲烷</string>
+    <string name="alarm_suffix_for_history">报警</string>
+
+    <string name="button_clear_sensor_history">清空传感器历史极值</string>
+    <string name="button_clear_event_history">清空事件通知历史</string>
+    <string name="sensor_history_cleared">传感器历史极值已清空！</string>
+    <string name="event_history_cleared">事件通知历史已清空！</string>
+
+    <!-- 访客提醒通知 -->
+    <string name="notification_visitor_title">访客提醒</string>
+    <string name="notification_visitor_text">门口有访客按铃！</string>
+
+    <string name="notification_alarm_unknown_type_raw">未知类型</string> <!-- 用于原始 type -->
+    <string name="notification_alarm_unknown_type_display">未知报警: %s</string> <!-- 用于显示, %s 会被原始类型替换 -->
+    <string name="alarm_suffix_history">报警</string> <!-- 用于拼接历史记录描述 -->
+
+    <!-- 传感器报警通知 -->
+    <string name="notification_alarm_title">安全警报！</string>
+    <string name="notification_alarm_text_prefix">检测到 </string> <!-- 注意末尾空格 -->
+    <string name="notification_alarm_text_suffix"> 异常！</string>
+    <string name="notification_alarm_unknown_type">未知报警</string>
+    <string name="notification_alarm_current_value"> 当前值: </string> <!-- 注意开头和末尾空格 -->
+
+    <string name="notification_permission_denied">通知权限被拒绝，您可能无法收到报警通知。</string>
+    <string name="error_parsing_event_json">解析事件 JSON 时出错</string>
+    <string name="historical_data_cleared">历史数据已清空！</string>
+
+    <!-- 权限请求结果提示 -->
+    <string name="permission_wifi_state_denied">Wi-Fi状态权限被拒绝，无法获取网络信息。</string>
+    <string name="permission_notification_granted">通知权限已授予</string>
+    <string name="permission_notification_denied">通知权限被拒绝，您可能无法收到报警通知。</string>
+    <string name="wifi_status_permission_denied">Wi-Fi: 权限被拒绝</string>
+    <string name="ip_address_permission_denied">IP: - (权限拒绝)</string>
+
+</resources>
