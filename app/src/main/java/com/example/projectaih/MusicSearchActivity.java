@@ -39,7 +39,7 @@ public class MusicSearchActivity extends AppCompatActivity implements MediaPlaye
         MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener, SeekBar.OnSeekBarChangeListener{
 
     private static final String TAG = "MusicSearchActivity";
-    private static final String JAMENDO_CLIENT_ID = "ec62211c";
+    private static final String JAMENDO_CLIENT_ID = "请自行申请Jamendo客户端ID";
     private static final String JAMENDO_API_URL = "https://api.jamendo.com/v3.0/tracks/?client_id=" + JAMENDO_CLIENT_ID + "&format=jsonpretty&limit=10&search=";
 
     private EditText searchEditText;
