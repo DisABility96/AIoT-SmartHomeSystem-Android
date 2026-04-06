@@ -25,13 +25,19 @@
 </table>
 
 ### AI 大模型交互
-![DeepSeek 智能对话](screenshots/app_DeepSeek_dialogue.png)
-![对话上下文](screenshots/app_DeepSeek_dialogue_continuity.png)
-![模型切换 DeepSeek](screenshots/app_model_hot_switching_ds.png)
-![模型切换 Gemma3](screenshots/app_model_hot_switching_gemma.png)
+<table>
+  <tr>
+    <td><img src="screenshots/app_DeepSeek_dialogue.png" width="300"/></td>
+    <td><img src="screenshots/app_DeepSeek_dialogue_continuity.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/app_model_hot_switching_ds.png" width="300"/></td>
+    <td><img src="screenshots/app_model_hot_switching_gemma.png" width="300"/></td>
+  </tr>
+</table>
 
 ### 拓展功能
-![在线音乐播放](screenshots/app_music_online_playback.png)
+<img src="screenshots/app_music_online_playback.png" width="300"/>
 
 ## 项目亮点
 1. 本地离线大模型部署，支持 DeepSeek-R1/Gemma3 热切换
