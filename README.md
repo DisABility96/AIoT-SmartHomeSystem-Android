@@ -13,8 +13,8 @@
 
 ## 项目截图
 ### 硬件实物
-![硬件整体](screenshots/hardware_overview.png)
-![硬件执行器测试](screenshots/hardware_test_stepper.png)
+![硬件整体](screenshots/hardware_overview.jpg)
+![硬件执行器测试](screenshots/hardware_test_stepper.jpg)
 
 ### Android 主界面
 ![APP主界面](screenshots/app_main_test.png)
