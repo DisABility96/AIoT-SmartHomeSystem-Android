@@ -17,8 +17,12 @@
 ![硬件执行器测试](screenshots/hardware_test_stepper.jpg)
 
 ### Android 主界面
-<img src="screenshots/app_main_test.png" width="48%" />
-<img src="screenshots/app_alarm_notify.png" width="48%" />
+<table>
+  <tr>
+    <td><img src="screenshots/app_main_test.png" width="300"/></td>
+    <td><img src="screenshots/app_alarm_notify.png" width="300"/></td>
+  </tr>
+</table>
 
 ### AI 大模型交互
 ![DeepSeek 智能对话](screenshots/app_DeepSeek_dialogue.png)
