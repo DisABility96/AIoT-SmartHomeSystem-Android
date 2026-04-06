@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+Screenshot_*.png
+.idea/
+*.iws
+*.ipr
